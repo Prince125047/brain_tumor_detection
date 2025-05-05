@@ -33,7 +33,9 @@ The proposed model combines classical and quantum layers in a custom architectur
 
 ```
 ├── model_notebook.ipynb         # Main model architecture, training, evaluation
-├── helper.py                    # Preprocessing and augmentation code
+├── extractor.py                 # cropping image and extraction
+├── preprocess_dataset.py        # Data Preprocessing code
+├── augment_training_set.py      # Data Augmentation code                
 ├── README.md                    # Project documentation
 ```
 
